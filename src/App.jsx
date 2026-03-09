@@ -502,8 +502,8 @@ export default function App() {
       <div style={{ background:C.surface, borderBottom:`1px solid ${C.border}`, padding:"0 24px", height:56, display:"flex", alignItems:"center", gap:14, boxShadow:"0 1px 3px rgba(0,0,0,0.05)" }}>
         <div style={{ width:32, height:32, borderRadius:8, background:"linear-gradient(135deg,#0284c7,#7c3aed)", display:"flex", alignItems:"center", justifyContent:"center", color:"#fff", fontSize:16, fontWeight:700 }}>🔑</div>
         <div>
-          <div style={{ fontSize:15, fontWeight:700, color:C.text, letterSpacing:"-0.01em" }}>API Key Inspector</div>
-          <div style={{ fontSize:10, color:C.textMuted, fontWeight:500 }}>Universal Validator · by PratikKaran23</div>
+          <div style={{ fontSize:15, fontWeight:700, color:C.text, letterSpacing:"-0.01em" }}>KeySentinel</div>
+          <div style={{ fontSize:10, color:C.textMuted, fontWeight:500 }}>Universal API Key Validator · by PratikKaran23</div>
         </div>
         <div style={{ marginLeft:"auto", display:"flex", alignItems:"center", gap:8 }}>
           <span style={{ fontSize:11, color:C.textMuted, background:C.surfaceAlt, border:`1px solid ${C.border}`, padding:"4px 10px", borderRadius:20, fontWeight:500 }}>
@@ -674,7 +674,7 @@ export default function App() {
         {/* ── ABOUT TAB ── */}
         {activeTab==="about" && (
           <div style={{ padding:"32px 24px", maxWidth:680 }}>
-            <div style={{ fontSize:20, fontWeight:700, color:C.text, marginBottom:8 }}>API Key Inspector</div>
+            <div style={{ fontSize:20, fontWeight:700, color:C.text, marginBottom:8 }}>KeySentinel</div>
             <div style={{ fontSize:13, color:C.textMid, marginBottom:24, lineHeight:1.6 }}>
               A professional tool for security researchers and bug bounty hunters to validate API keys found during reconnaissance. Supports {KEY_DEFS.length} key types across {CATEGORIES.length} categories.
             </div>
